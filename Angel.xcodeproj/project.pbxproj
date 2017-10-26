@@ -14,6 +14,10 @@
 		AEE567CB1E3DDDA1009A9594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE567C91E3DDDA1009A9594 /* LaunchScreen.storyboard */; };
 		AEE567D61E3DDDA1009A9594 /* AngelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE567D51E3DDDA1009A9594 /* AngelTests.swift */; };
 		AEE567E11E3DDDA1009A9594 /* AngelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE567E01E3DDDA1009A9594 /* AngelUITests.swift */; };
+		AEE567EF1E3DE070009A9594 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE567EE1E3DE070009A9594 /* FriendListViewController.swift */; };
+		AEE567F11E3DE0EB009A9594 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE567F01E3DE0EB009A9594 /* Messages.swift */; };
+		AEE567F31E3DE1E5009A9594 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE567F21E3DE1E5009A9594 /* LoginViewController.swift */; };
+		AEE567F51E3DE6C7009A9594 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE567F41E3DE6C7009A9594 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		AEE567DC1E3DDDA1009A9594 /* AngelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE567E01E3DDDA1009A9594 /* AngelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelUITests.swift; sourceTree = "<group>"; };
 		AEE567E21E3DDDA1009A9594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE567EE1E3DE070009A9594 /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		AEE567F01E3DE0EB009A9594 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		AEE567F21E3DE1E5009A9594 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AEE567F41E3DE6C7009A9594 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				AEE567C01E3DDDA1009A9594 /* AppDelegate.swift */,
+				AEE567F41E3DE6C7009A9594 /* ChatViewController.swift */,
+				AEE567F01E3DE0EB009A9594 /* Messages.swift */,
+				AEE567EE1E3DE070009A9594 /* FriendListViewController.swift */,
 				AEE567C21E3DDDA1009A9594 /* ViewController.swift */,
 				AEE567C41E3DDDA1009A9594 /* Main.storyboard */,
+				AEE567F21E3DE1E5009A9594 /* LoginViewController.swift */,
 				AEE567C71E3DDDA1009A9594 /* Assets.xcassets */,
 				AEE567C91E3DDDA1009A9594 /* LaunchScreen.storyboard */,
 				AEE567CC1E3DDDA1009A9594 /* Info.plist */,
@@ -263,7 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEE567C31E3DDDA1009A9594 /* ViewController.swift in Sources */,
+				AEE567F11E3DE0EB009A9594 /* Messages.swift in Sources */,
 				AEE567C11E3DDDA1009A9594 /* AppDelegate.swift in Sources */,
+				AEE567F31E3DE1E5009A9594 /* LoginViewController.swift in Sources */,
+				AEE567F51E3DE6C7009A9594 /* ChatViewController.swift in Sources */,
+				AEE567EF1E3DE070009A9594 /* FriendListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
